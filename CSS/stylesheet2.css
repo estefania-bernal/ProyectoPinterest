@@ -1,0 +1,62 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 40px;
+    height: 40px;
+  }
+  .navbar{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 50px;
+    border-right: 4px;
+    border-bottom: 4px;
+    background: white;
+    font-weight: bolder;
+    float: left;
+    transition: background-color .5s;
+    text-align: center;
+  }
+  
+  .opcion:hover {
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .opcion {
+    padding: 5px;
+  }
+  
+
+  .container-1{<font></font>
+    width: 300px;<font></font>
+    vertical-align: middle;<font></font>
+    white-space: nowrap;<font></font>
+    position: relative;<font></font>
+  }
+
+  .container-1 input#search{<font></font>
+    width: 300px;<font></font>
+    height: 50px;<font></font>
+    background: #2b303b;<font></font>
+    border: none;<font></font>
+    font-size: 10pt;<font></font>
+    float: left;<font></font>
+    color: #63717f;<font></font>
+    padding-left: 45px;<font></font>
+    -webkit-border-radius: 5px;<font></font>
+    -moz-border-radius: 5px;<font></font>
+    border-radius: 5px;<font></font>
+  }

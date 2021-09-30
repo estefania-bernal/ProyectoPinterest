@@ -1,0 +1,200 @@
+header{
+width: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 50px;
+    border-right: 4px;
+    border-bottom: 4px;
+    background: white;
+    font-weight: bolder;
+    float: left;
+    transition: background-color .5s;
+    text-align: center;
+  }
+  
+  .opcion:hover {
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .opcion {
+    padding: 5px;
+  }
+  
+
+#buscador {
+    
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    background-position: left;
+    background-color: #ECE6E4;
+    width: 900px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 10px 10px 80px;
+    outline: none;
+    color: black;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    font-size: 10pt;
+    float: left;
+    color: #65788b;
+    padding-left: 45px;
+    -webkit-border-radius:
+    border-radius: 50%;
+  }
+
+  .campana {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .notificacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  }
+  
+.down {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.e {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    padding: 0 4px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 6px;;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 300px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .column:hover {
+    border-radius: 50px;
+  }
+
+
+  
+
+
+
+  .card {
+  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.02);
+    opacity:0.5;
+  }
+  
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  h4 {
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    width: 110px;
+    height: 30px;
+    font-size: 10pt;
+  }
+
+  p {
+    background-color: #e7e7e7;
+    border-radius: 50px;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+    width: 19px;
+  }
